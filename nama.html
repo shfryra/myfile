@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Input Data</title>
+</head>
+<body>
+    <h2>Form Input Data</h2>
+    <form method="post" action="proses.php">
+        <label>Nama:</label><br>
+        <input type="text" name="nama"><br><br>
+
+        <label>Alamat:</label><br>
+        <textarea name="alamat" rows="3" cols="30"></textarea><br><br>
+
+        <label>Tempat Lahir:</label><br>
+        <input type="text" name="tempat_lahir"><br><br>
+
+        <label>Tanggal Lahir:</label>:<input type="date" name="tanggal_lahir"><br><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan<br><br>
+
+        <label>Pendidikan:</label><br>
+        <select name="pendidikan">
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA">SMA</option>
+            <option value="D3">D3</option>
+            <option value="S1">S1</option>
+        </select><br><br>
+
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Batal">
+    </form>
+</body>
+</html>
